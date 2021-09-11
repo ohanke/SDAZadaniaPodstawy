@@ -20,6 +20,7 @@ public class Zad3 {
         boolean resultPointD = (firstDigit * secondDigit) % 2 == 0;
         System.out.println("Is x * y even?");
 
+        //trzeba rozdzielic na funkcje zeby first i second sie nie zwiekszaly przy obliczeniach
     }
 
 
