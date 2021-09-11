@@ -12,7 +12,7 @@ public class Zad2 {
         float areaOfACircle = calculateAreaOfACircle(radius);
 
         System.out.println("Circumference Of A Circle: " + circumferenceOfACircle);
-        System.out.printf("Circumference Of A Circle: %.2f\n", circumferenceOfACircle); //round 2
+        System.out.printf("Circumference Of A Circle: %.2f\n", circumferenceOfACircle);
         System.out.format("Circumference Of A Circle: %.2f\n", circumferenceOfACircle);
 
         System.out.println("Area Of A Circle: " + areaOfACircle);
