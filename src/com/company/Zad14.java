@@ -18,7 +18,7 @@ public class Zad14 {
     }
 
     private static float getCalculatedInstallments(float loanAmount, int installmentsAmount) {
-        float procentage = 0f;
+        float procentage;
         if (installmentsAmount <= 12)
             procentage = 2.5f;
         else if (installmentsAmount <= 24)
