@@ -11,10 +11,10 @@ public class Task2 {
     }
 
     private static boolean checkIfIsEndingWithSuffix(String input, String suffix) {
-        return input.endsWith(suffix);
+        return input.trim().endsWith(suffix);
     }
 
     private static boolean checkIfIsBegginingWithPrefix(String input, String prefix) {
-        return input.startsWith(prefix);
+        return input.trim().startsWith(prefix);
     }
 }

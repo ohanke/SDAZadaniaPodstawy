@@ -3,12 +3,7 @@ package com.company.Day1;
 import java.util.Scanner;
 
 public class Zad14 {
-//    private static final int MAX_INSTALLMENTS_AMOUNT = 48;
-//    private static final int MIN_INSTALLMENTS_AMOUNT = 6;
-//    private static final int AUTO_INSTALLMENTS_AMOUNT = 36;
-//    private static final int MAX_LOAN_AMOUNT = 10000;
-//    private static final int MIN_LOAN_AMOUNT = 100;
-//    private static final int AUTO_LOAN_AMOUNT = 5000;
+//zmienic na big decimal
 
     public static void main(String[] args) {
         float loanAmount = getLoanAmount();
