@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Day1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
