@@ -10,12 +10,22 @@ public class Task9 {
         String userInput = scanner.nextLine();
         List<String> userStringList = new ArrayList<>();
 
-        while (!userInput.equals("Enough")){
+        while (!userInput.equals("Enough")) {
             putUserInputIntoList(userInput, userStringList);
             userInput = scanner.nextLine();
         }
 
-        printUserList(userStringList);
+        getIndexOfLongestString(userStringList);
+    }
+
+    private static int getIndexOfLongestString(List<String> userStringList) {
+        int index = 0;
+        for (int i = 0; i < userStringList.size(); i++) {
+//            if (userStringList.length() > index) {
+//                index =
+//            }
+        }
+        return index;
     }
 
     private static void printUserList(List<String> userStringList) {
