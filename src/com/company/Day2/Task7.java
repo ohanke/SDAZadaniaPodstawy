@@ -1,6 +1,7 @@
 package com.company.Day2;
 
 public class Task7 {
+    private static char SPACE = ' ';
     public static void main(String[] args) {
         String userInput = "Ala ma kota";
 
@@ -15,7 +16,7 @@ public class Task7 {
     private static int countBlankSpacesInString(String userInput) {
         int count = 0;
         for (int i = 0; i < userInput.length(); i++){
-            if (userInput.charAt(i) == ' '){
+            if (userInput.charAt(i) == SPACE){
                 count += 1;
             }
         }

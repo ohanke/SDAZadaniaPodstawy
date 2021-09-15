@@ -15,7 +15,7 @@ public class Zad9 {
             else if (i % 5 == 0){
                 System.out.println("Buzz");
             }
-            else if ((i % 3 == 0) && (i % 5 == 0)){
+            else if (i % 15 == 0){
                 System.out.println("FizzBuzz");
             }
             else

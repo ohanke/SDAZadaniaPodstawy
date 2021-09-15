@@ -11,25 +11,24 @@ public class Zad11 {
         boolean gameOver = false;
 
 
-        while (!gameOver){
+        do {
             int playersGuess = getGuess();
 
             if (playersGuess > hiddenDigit)
                 System.out.println("Too much");
             else if (playersGuess < hiddenDigit)
                 System.out.println("Not enough");
-            else{
+            else {
                 System.out.println("Bingo!");
                 gameOver = true;
             }
-        }
+        }while (!gameOver);
 
     }
 
     private static int getRandomNumber(){
         Random random = new Random();
-        int digit = random.nextInt(NUMBER_RANGE);
-        return digit;
+        return random.nextInt(NUMBER_RANGE);
     }
 
     private static int getGuess() {

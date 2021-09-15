@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Zad14 {
 //zmienic na big decimal
+    private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         float loanAmount = getLoanAmount();
@@ -26,7 +27,6 @@ public class Zad14 {
     }
 
     private static int getInstallmentsAmount() {
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Please insert number of installments: ");
         int installmentsAmount = scanner.nextInt();
         return validateInstallmentsAmount(installmentsAmount);
@@ -49,7 +49,6 @@ public class Zad14 {
     }
 
     private static float getLoanAmount() {
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Please insert amount: ");
         float loanAmount = scanner.nextInt();
         return validateLoanAmount(loanAmount);
