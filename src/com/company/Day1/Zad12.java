@@ -2,8 +2,8 @@ package com.company.Day1;
 
 public class Zad12 {
     public static void main(String[] args) {
-        int a = 0;
-        int b = 2;
+        int a = 4;
+        int b = 3;
         int ownResult = ownModuloImplementation(a, b);
 
         System.out.println("Result of " + a + " % " + b + " = " + ownResult);
@@ -12,24 +12,10 @@ public class Zad12 {
     }
 
     private static int ownModuloImplementation(int a, int b){
-        int result = 0;
-        boolean remainderFound = false;
-
-        if (a == 0 || b == 0)
+        //4%3 != 0
+        if (b == 0)
             return -1;
-        else if (a > b)
-            return result;
-
-        while (!remainderFound){
-            if ((a+a) < b)
-            a += a;
-        else{
-            result = b - a;
-            remainderFound = true;
-        }
-     }
-
-     return result;
+        return ((a < b) ? a : 0);
     }
 
     private static boolean ifOwnModuloImplementationIsCorrect(int a, int b, int ownResult){

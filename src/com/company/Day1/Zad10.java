@@ -23,7 +23,6 @@ public class Zad10 {
     private static int [] convertStringToInt(String [] stringArray){
         int arraySize = stringArray.length;
         int [] intArray = new int[arraySize];
-
         for (int i = 0; i < arraySize; i++){
             intArray[i] = Integer.parseInt(stringArray[i]);
         }
